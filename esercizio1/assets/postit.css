@@ -32,7 +32,7 @@ ul li:hover {
 ul {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 li {
   width: 15rem;
