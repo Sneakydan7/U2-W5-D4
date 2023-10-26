@@ -24,16 +24,15 @@ ul li:nth-child(4n) {
 }
 
 ul li:hover {
-  transform: scale(1.1);
-  -webkit-box-shadow: 1px 7px 9px 5px rgba(0, 0, 0, 0.79);
-  box-shadow: 1px 7px 9px 5px rgba(0, 0, 0, 0.79);
+  transform: scale(1.2);
+  -webkit-box-shadow: 1px 4px 29px 6px #000000;
+  box-shadow: 1px 4px 29px 6px #000000;
 }
 
 ul {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-around;
+  justify-content: center;
 }
 li {
   width: 15rem;
@@ -46,6 +45,7 @@ li {
   -webkit-box-shadow: 1px 7px 9px -1px rgba(0, 0, 0, 0.79);
   box-shadow: 1px 7px 9px -1px rgba(0, 0, 0, 0.79);
   transition: linear 0.2s;
+  box-shadow: inset 0px -30px 20px -20px #00000050, 10px 10px 8px 0px #00000080;
 }
 li h3 {
   font-size: 3rem;
