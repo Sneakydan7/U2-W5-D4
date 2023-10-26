@@ -51,10 +51,21 @@ li h3 {
   font-size: 3rem;
   text-align: center;
   font-weight: bold;
-  inset: 0;
 }
 li p {
   text-align: center;
   font-size: 1.5rem;
-  inset: 0;
+}
+
+.entrance {
+  animation: entranceAnime 0.45s cubic-bezier(0.47, 0, 0.745, 0.715);
+}
+
+@keyframes entranceAnime {
+  0% {
+    transform: translateZ(0);
+  }
+  100% {
+    transform: translateZ(-400px);
+  }
 }
